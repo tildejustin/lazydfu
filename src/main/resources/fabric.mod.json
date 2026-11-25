@@ -5,12 +5,17 @@
   "name": "LazyDFU",
   "description": "Makes DataFixerUpper more lazy",
   "authors": [
-    "tuxed"
+    {
+      "name": "tuxed",
+      "contact": {
+        "homepage": "https://github.com/astei"
+      }
+    }
   ],
   "contact": {
-    "homepage": "https://github.com/astei/lazydfu",
-    "sources": "https://github.com/astei/lazydfu",
-    "issues": "https://github.com/astei/lazydfu/issues"
+    "homepage": "https://github.com/tildejustin/lazydfu",
+    "sources": "https://github.com/tildejustin/lazydfu",
+    "issues": "https://github.com/tildejustin/lazydfu/issues"
   },
   "license": "MIT",
   "icon": "assets/lazydfu/icon.png",
@@ -19,7 +24,7 @@
     "lazydfu.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.7.0",
-    "minecraft": ">=1.14"
+    "fabricloader": ">=0.15",
+    "minecraft": ">1.12.2 <1.15"
   }
 }

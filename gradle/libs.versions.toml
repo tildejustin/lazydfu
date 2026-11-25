@@ -1,0 +1,16 @@
+[versions]
+minecraft = "1.13.2"
+sparrow_build = "1"
+feather_build = "2"
+fabric_loader = "0.20.1"
+loom = "1.19-SNAPSHOT"
+ploceus = "1.19-SNAPSHOT"
+
+[libraries]
+minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }
+fabric_loader = { module = "net.fabricmc:fabric-loader", version.ref = "fabric_loader" }
+
+[plugins]
+fabric_loom = { id = "fabric-loom", version.ref = "loom" }
+ploceus = { id = "ploceus", version.ref = "ploceus" }
+maven_publish = { id = "maven-publish" }
